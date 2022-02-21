@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+
+<title>Assignment 7</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body style="background-color:gold">
+
+
+<script src="script.js" defer> </script>
+<noscript>Please enable javascript!</noscript>
+
+
+<!-- NAVIGATION BUTTONS-->
+<div id="navtop">
+  
+  <ul>
+    
+    <li><a href="#home" id="homeb">Home</a></li>
+    <li><a href="#attractions" id="attractionsb">Attractions</a></li>
+    <li><a href="#resorts" id="resortsb">Resorts</a></li>
+    <li><a href="#restaurants" id="restaurantsb">Restaurants</a></li>
+    <li><a href="#schools" id="schoolsb">Schools</a></li>
+    <li><a href="#history" id="historyb">History</a></li>
+    <li><a href="#websites" id="websitesb">Relevant Websites</a></li>
+  </ul>
+
+  <!--GIANT PHOENIX PICTURE-->
+
+<div id="home">
+
+  <!--SRC IS ONLY THERE AS BACKUP, AND BECAUSE HTML REQUIRES ONE TO BE THERE EVEN THOUGH JS HANDLES IT-->
+  <img id = "slide"  src="https://www.tripsavvy.com/thmb/NbvbJR3hkmwQFpxvMUJsDBsYZ_k=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1138165502-1daa3ff05ff54d2dadb274ae52c27f14.jpg" alt="Background photos of Phoenix, Arizona">
+  <h1 id = "welcometext">Welcome to Phoenix, Arizona!</h1>
+  
+  <h2><br>"<em>Ditat Deus</em>", latin for "God enriches" -Arizona State Motto<br><br></h2>
+
+   
+</div>
+
+
+<!--THANKS TO https://weatherwidget.io/-->
+<a class="weatherwidget-io" href="https://forecast7.com/en/33d45n112d07/phoenix/" data-label_1="PHOENIX" data-label_2="WEATHER" data-theme="dark" data-basecolor="#d70f0f" >PHOENIX WEATHER</a>
+
+
+<!--   LOCAL ATTRACTIONS   -->
+
+<h2 id="attractions" class="bordered-header"
+  onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';">
+  Local Attractions
+</h2>
+
+
+<div style="width: 100%;overflow:auto;height:fit-content">
+    <div class="leftthing" 
+    onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" 
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+        <h2 style="text-align:center;" > McCormick-Stillman Railroad Park</h2>
+        
+        <img src="https://th.bing.com/th/id/OIP.PrYy6p0Yv-koD7Adl_HrEQHaE8?pid=ImgDet&rs=1" alt="Picture of customers enjoying their time on a train" width=700 height=500>
+      
+      <table style="width:80%;">
+        <tr>
+          <td>
+            Set in a stunning landscape of beautiful boulders and desert flora, the Four Seasons Scottsdale at Troon North is an oasis of luxury and tranquility. Features suites, and adobe one and two-story casitas, with free shuttling to one of Arizona's finest golf courses, and exceptional dining at local restaurants.
+          </td>
+          </tr>
+      </table>
+      
+      <table style="width:90%;">
+        <tr>
+          <th>Website</th>
+          <th>Hours</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.therailroadpark.com/">Railroad Park</a></td>
+          <td>9:00AM to 1:00PM</td>
+          <td>$3 per train ride, or $12 all day pass</td>
+          
+        </tr>
+        
+      </table>
+  </div>
+
+  <div class="rightthing" 
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" 
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+        <h2 style="text-align:center;">Musical Instrument Museum</h2>
+        
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/55/79/d3/thumb-piano-exhibit.jpg?w=1200&h=-1&s=1" alt="Picture of some people enjoying the museum" width=700 height=500>
+        
+      
+        <table style="width:80%;">
+          <tr>
+            <td>
+              The world's only global musical instrument museum, walk around with headphones to seamlessly connect to thousands of instruments and to learn about them!
+            </td>
+            </tr>
+        </table>
+        <table style="width:90%">
+          <tr>
+            <th>Website</th>
+            <th>Hours</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.mim.org/">MIM</a></td>
+            <td>9:00 AM to 5:00 PM</td>
+            <td>General: $20 | Teen(13-19): $15 | Child(4-12): $10 | Child(0-3): $0</td>
+          </tr>
+          
+        </table>
+    </div>
+</div>
+
+
+<p><br><br></p>
+
+<div style="width: 100%;overflow:auto;height:fit-content">
+  <div class="leftthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Papago Park</h2>
+    
+    <img src="https://d3qvqlc701gzhm.cloudfront.net/full/45a55d7629988a91a0d2302267c22f46f9efb23f26d193aa39884dff0fcf0a29.jpg" alt="Picture of Papago Park" width=700 height=500>
+  
+ 
+  <table style="width:80%;">
+    <tr>
+      <td>
+        Expect magnificent views of downtown Phoenix and Tempe, and incredible sandstone formations. The formation on the park's east side is thought to have been used by the ancient Hohokam civilization to track the position of the sun through a hole in the rock "ceiling".
+      </td>
+      </tr>
+  </table>
+  <table style="width:90%">
+    <tr>
+      <th>Website</th>
+      <th>Hours</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.visitphoenix.com/sonoran-desert/parks/papago-park/">Papago Park</a></td>
+      <td>6:00 AM to 7:00 PM</td>
+      <td>$0</td>
+    </tr>
+    
+  </table>
+  </div>
+
+  <div class="rightthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    
+    <h2 style="text-align:center;">Phoenix Zoo</h2>
+    
+    <img src="https://th.bing.com/th/id/R.b577ca9ab501fcbca86930f2c283ed04?rik=uNTZk%2fRCqAQDug&pid=ImgRaw&r=0" alt="Picture of the Phoenix Zoo" width=700 height=500>
+    
+   
+    <table style="width:80%;">
+      <tr>
+        <td>
+          One of the largest non-profit zoos in the country, Phoenix Zoo convervation scientists raise and breed species at the Zoo's Arthur L. and Elaine V. Johnson Conservation for release to the world and/or to help understand their biology.
+        </td>
+        </tr>
+    </table>
+    <table style="width:90%">
+      <tr>
+        <th>Website</th>
+        <th>Hours</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.phoenixzoo.org/">Phoenix Zoo</a></td>
+        <td>9:00 AM to 4:00 PM</td>
+        <td>Adult(14+): $29.95 | Child(3-13): $19.95</td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
+
+<p><br><br></p>
+
+<div style="width: 100%;overflow:auto;height:fit-content">
+  <div class="leftthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" 
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Desert Botanical Garden</h2>
+    
+    <img src="https://myflyingleap.com/wp-content/uploads/2021/07/Desert-Botanical-Garden_from-DBG.jpg" alt="Picture of the garden" width=700 height=500>
+  
+ 
+  <table style="width:80%;">
+    <tr>
+      <td>
+        When you think of the desert, chances are you think of sand and shades of brown. The Desert Botanical Garden is there to debunk the myth that there is little or no green in the desert. It’s a 140-acre botanical garden with more than 50 thousand plants.
+      </td>
+      </tr>
+  </table>
+  <table style="width:90%">
+    <tr>
+      <th>Website</th>
+      <th>Hours</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><a href="https://dbg.org/">Desert Botanical Garden</a></td>
+      <td>8:00 AM to 8:00 PM</td>
+      <td>$29.95 per person</td>
+    </tr>
+    
+  </table>
+  </div>
+
+  <div class="rightthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" 
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Dobbins Lookout South Mountain</h2>
+    
+    <img src="https://myflyingleap.com/wp-content/uploads/2019/12/Dobbins-Lookout.jpg" alt="Picture at the lookout" width=700 height=500>
+    
+   
+    <table style="width:80%;">
+      <tr>
+        <td>
+          This scenic observation point offers the best views of the Phoenix area. It is the highest point you can drive to, with an elevation of over 2,000 feet. It is located in South Mountain Park and Preserve, which is one of the largest municipal parks in the country.
+        </td>
+        </tr>
+    </table>
+    <table style="width:90%">
+      <tr>
+        <th>Website</th>
+        <th>Hours</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.phoenix.gov/parks/trails/locations/south-mountain">Park Website</a></td>
+        <td>5:00 AM to 7:00 PM</td>
+        <td>$0</td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
+
+
+
+  <!--        LOCAL RESORTS          -->
+<h2 id="resorts" class="bordered-header"
+onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';"
+  >Local Resorts</h2>
+
+<div style="width: 100%;overflow:auto;height:fit-content">
+  <div class="leftthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';" 
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Four Seasons Scottsdale at Troon North</h2>
+    
+    <img src="https://www.planetware.com/photos-large/USAZ/arizona-phoenix-resorts-four-seasons-troon-north-pool.jpg" alt="Picture of Four Seasons Scottsdale at Troon North" width=700 height=500>
+  
+  
+  <table style="width:80%;">
+    <tr>
+      <td>
+        Set in a stunning landscape of beautiful boulders and desert flora, the Four Seasons Scottsdale at Troon North is an oasis of luxury and tranquility. Features suites, and adobe one and two-story casitas, with free shuttling to one of Arizona's finest golf courses, and exceptional dining at local restaurants.
+      </td>
+      </tr>
+  </table>
+
+  <table style="width:90%">
+    <tr>
+      <th>Website</th>
+      <th>Phone Number</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.fourseasons.com/scottsdale/">Four Seasons</a></td>
+      <td>1-(480)-515-5700</td>
+      <td>Varies based on room and # of people</td>
+    </tr>
+    
+  </table>
+  </div>
+
+  <div class="rightthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">The Phoenician</h2>
+    
+    <img src="https://www.planetware.com/photos-large/USAZ/arizona-phoenix-resorts-the-phoenician-from-balcony.jpg" alt="Picture of the Phoenician" width=700 height=500>
+    
+    
+    <table style="width:80%;">
+      <tr>
+        <td>
+          Iconic in nature, unrivaled in service. Capture your vacation as well as the imagination at Arizona's premier luxury resort desitation, featuring a spa, meeting rooms, local golf, and exceptional restaurants
+        </td>
+        </tr>
+    </table>
+    <table style="width:90%">
+      <tr>
+        <th>Website</th>
+        <th>Phone Number</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.thephoenician.com/">The Phoenician</a></td>
+        <td>9:00 AM to 5:00 PM</td>
+        <td>Varies based on room and # of people</td>
+      </tr>
+      
+    </table>
+</div>
+
+</div>
+
+<!-- LOCAL RESTAURANTS-->
+<h2 id="restaurants" class="bordered-header"
+onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';">
+  Local Restaurants</h2>
+    
+<div style="width: 100%;overflow:auto;height:fit-content">
+  <div class="leftthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Ajo Al's Mexican Cafe</h2>
+    
+    <img src="https://360niche.com/wp-content/uploads/2019/09/aa-camelback3.jpg" alt="Picture of inside Ajo Al's" width=700 height=500>
+  
+ 
+  <table style="width:80%;">
+    <tr>
+      <td>
+        Rated #1 of 2,137 restaurants on TripAdvisor in Phoenix and an average price of $12, customers talk of excellent service, food, and music. The restaurant is also taking measures to reduce COVID-19 contact during stay, and features Mexican, Southwestern, and Contemporary cuisines!
+      </td>
+      </tr>
+  </table>
+  <table style="width:90%">
+    <tr>
+      <th>Website</th>
+      <th>Phone Number</th>
+      <th>Address</th>
+    </tr>
+    <tr>
+      <td><a href="https://ajoals.com/">Ajo Al's</a></td>
+      <td>10:00 AM to 6:00 PM</td>
+      <td>5101 N 16th St, Phoenix, AZ 85016</td>
+    </tr>
+    
+  </table>
+  </div>
+
+  <div class="rightthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center;">Rusconi's American Kitchen</h2>
+    
+    <img src="https://i.pinimg.com/originals/26/23/65/2623654b7c2d6cb919d26465c1d3024e.jpg" alt="Picture inside Rusconi's" width=700 height=500>
+    
+    
+    <table style="width:80%;">
+      <tr>
+        <td>
+          Expect a wide variety of your favorite dishes uniquely enhanced with ingredients native to the Valley. Siganture menu items are cooked to perfection in their wood burning grill to ensure a savory and aromatic flavor only experienced here
+        </td>
+        </tr>
+    </table>
+    <table style="width:90%">
+      <tr>
+        <th>Website</th>
+        <th>Hours</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td><a href="https://rusconiskitchen.com/">Rusconi's Kitchen</a></td>
+        <td>4PM-9PM (Wed-Sun)</td>
+        <td>10637 N Tatum Blvd, Phoenix, AZ 85028</td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
+
+<h3>Phoenix aint home to just these two, there are many other restaurants and fast food chains.</h3>
+
+<!-- LOCAL SCHOOLS-->
+<h2 id="schools" class="bordered-header"
+onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';"
+  >Local Schools</h2>
+
+<h2 style="text-align: center; padding: 20px;">Phoenix is home to <em>325</em> public schools in <em>30</em> school districts along with more than <em>200</em> charter and public schools.
+  <br><br> 
+  Here are the district maps for local Elementary, and High Schools
+</h2>
+<div style="width: 100%;overflow:auto;height:fit-content">
+  <div class="leftthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center; font-family:'Lucida Sans';">Elementary School Districts for Phoenix</h2>
+    
+    <img src="elemphoenix.PNG" alt="Picture of Elementary school map for Phoenix" width=600 height=700>
+  <br>
+  <a href="https://www.phoenix.gov/educationsite/Documents/nsd_schl_distelem.pdf/" target="_blank">Bigger Map</a>
+  
+  </div>
+
+  <div class="rightthing"
+  onmouseover="this.style.color = 'rgb(230,30,100)';this.style.fontStyle='bold';this.style.fontSize='1.5em';"
+    onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='1em';">
+    <h2 style="text-align:center; font-family:'Lucida Sans';">High School Districts for Phoenix</h2>
+    
+    <img src="hsphoenix.PNG" alt="Picture of high school map for Phoenix" width=600 height=700>
+    <br>
+    <a href="https://www.phoenix.gov/educationsite/Documents/nsd_schl_disthigh.pdf" target="_blank">Bigger Map</a>
+    
+  </div>
+
+</div>
+
+
+<!-- LOCAL HISTORY  -->
+<h2 id="history" class="bordered-header"
+onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';"
+  >Local History</h2>
+
+  <img src="https://i.redd.it/sx1puyadcw901.jpg" alt="Phoenix, Arizona Flag" width=600 height=300>
+ 
+ <p>*Flag of Phoenix, Arizona<br><br></p>
+ 
+
+  <table style="width:80%;">
+    <tr>
+      <td style="font-size: x-large">
+        <br>
+        It is believed that the Native American Hohokam people occupied the area that is now Phoenix. For more than 1,000 years, this group occupied the land and created roughly 135 miles of irrigation canals, making the desert land arable. Paths of these canals still exist and would later be used for the modern Arizona Canal, Central Arizona Project Canal, and the Hayden-Rhodes Aqueduct.
+      <br>
+      </td>
+      </tr>
+  </table>
+   <br><br> <img src="https://www.phoenixarizonabusinessdirectory.com/uploaded_files/images/old_railroad.jpg" alt="Railroad builders" width=600 height=200><br><br>
+  
+  <table style="width:80%;">
+    <tr>
+      <td style="font-size: x-large">
+  <br>The history of Phoenix as a city begins with a wealth seeking American Civil War veteran named Jack Swilling who had come west in the 1850s and worked primarily in Wickenburg. In 1867, Swilling observed the abandoned river valley and considered its potential for agriculture. Water was the only piece missing from the area since the terrain and climate were optimal for farming. Swilling solved the water problem by looking to the old Hohokam ruins and canals.
+  <br><br>Under President William Howard Taft, Phoenix became the capital of Arizona on February 14, 1912. The city was chosen over Tucson or Prescott because of its central location. Dam construction helped to control the unpredictable Salt River, thereby increasing the settler population. Phoenix became the state’s largest city over the next few decades. By 1920, Phoenix was host to 30,000 people.
+  <br><br>In recent years Phoenix has maintained a massive growth streak that is second only to Las Vegas. The city has seen a 24.2% expansion since 2000. In just 50 years, the city has grown from 100,000 to 3 million, half the population of the entire state of Arizona. In 75 years, we expect to be over 5 million people strong and growing.
+<br>
+      </td>
+      </tr>
+  </table>
+
+
+<!-- RELEVANT WEBSITES  -->
+<h2 id="websites" class="bordered-header"
+onmouseover="this.style.color = '#d70f0f';this.style.fontStyle='bold';this.style.fontSize='3em';"
+  onmouseout="this.style.color='black';this.style.fontStyle='normal';this.style.fontSize='2em';"
+  >Relevant Websites</h2>
+    <p><br><br></p>
+
+ <a style="padding: 30px; font-size:20px" href="https://www.phoenix.gov/" target="_blank">Phoenix Government Website</a>
+ <a style="padding: 30px; font-size:20px" href="https://www.visitphoenix.com/" target="_blank">More Info on Visiting Phoenix</a>
+ <a style="padding: 30px; font-size:20px" href="https://www.phoenix.gov/education/schools" target="_blank">School Districts</a>
+
+  <a style="padding: 30px; font-size:20px" href="https://www.visitphoenix.com/places-to-stay/special-offers/" target="_blank">Other Places to Stay</a>
+  <a style="padding: 30px; font-size:20px" href="https://weather.com/weather/tenday/l/Phoenix+AZ?canonicalCityId=2e5ae66bd2b43b15b0bfc4f6a3628b6e13228e32d0a57fb643144293f78ca339" target="_blank">10 Day Phoenix Weather</a>
+  
+
+ <p>
+   <br><br><br>
+   Built and Designed by Preston Leigh | University of Wisconsin-Stout | Jan 2022
+   <br>
+ </p>
+
+ </div>
+</body>
+
+</html>
