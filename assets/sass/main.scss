@@ -42,6 +42,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		
 	}
 
 	article, aside, details, figcaption, figure,
@@ -155,7 +156,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #252122;
+		color: #000000;
 		font-weight: 700;
 	}
 
@@ -346,6 +347,7 @@
 			font-style: italic;
 			margin: 0.5em 0 0 0;
 			padding-bottom: 0.5em;
+			color:black;
 		}
 
 		&.major {
@@ -402,6 +404,7 @@
 				> p {
 					margin-top: 1.25em;
 					font-size: 1.25em;
+					color:black;
 				}
 			}
 		}
@@ -580,6 +583,8 @@
 
 			p {
 				margin: 0;
+				color:black;
+				
 			}
 
 			&:first-child {
@@ -642,6 +647,7 @@
 
 		p {
 			margin: 0;
+			color:black;
 		}
 
 		li {
@@ -970,7 +976,7 @@
 			}
 
 			p {
-				color: #d52349;
+				color: #000000;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -996,6 +1002,7 @@
 
 		p {
 			margin: 0;
+			color:black;
 		}
 
 		.middle {
@@ -1299,6 +1306,7 @@
 
 					p {
 						margin: 0;
+						color:black;
 					}
 				}
 
@@ -1541,6 +1549,7 @@
 						> p {
 							margin-top: 0;
 							font-size: 1em;
+							color:black;
 						}
 					}
 				}
@@ -1664,6 +1673,7 @@
 
 					p {
 						font-size: 1.2em;
+						color:black;
 					}
 				}
 			}

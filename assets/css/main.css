@@ -1547,6 +1547,7 @@ input, select, textarea {
 			font-style: italic;
 			margin: 0.5em 0 0 0;
 			padding-bottom: 0.5em;
+			color:black;
 		}
 
 		header.major {
@@ -1599,6 +1600,7 @@ input, select, textarea {
 		.box.post header > p {
 			margin-top: 1.25em;
 			font-size: 1.25em;
+			color:black;
 		}
 
 		.box footer ul.actions {
@@ -1803,6 +1805,7 @@ input, select, textarea {
 
 			ul.contact li p {
 				margin: 0;
+				color:black;
 			}
 
 			ul.contact li:first-child {
@@ -2204,7 +2207,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: rgb(256,256,256);
+				color: black;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2519,6 +2522,7 @@ input, select, textarea {
 
 					#intro section p {
 						margin: 0;
+						color:black;
 					}
 
 				#intro .middle:before, #intro .middle:after {
@@ -2789,6 +2793,7 @@ input, select, textarea {
 				.box.post header > p {
 					margin-top: 0;
 					font-size: 1em;
+					color:black;
 				}
 
 		/* Divided */
@@ -2899,6 +2904,7 @@ input, select, textarea {
 
 					#banner header p {
 						font-size: 1.2em;
+						color:black;
 					}
 
 		/* Main */
